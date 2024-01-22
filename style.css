@@ -232,10 +232,16 @@ input [type="radio"].visually-hiden {
 .gallery {
   width: 300px;
 }
+.gallery-container {
+  position: relative;
+  height: 260px;
+}
 
 .gallery-content {
   background-color: #cccccc;
   border: 7px solid #ffffff;
+  height: 165px;
+  margin: 0;
 }
 
 .contacts {
@@ -464,4 +470,12 @@ input [type="radio"].visually-hiden {
   color: #000000;
 
   background-color: #ffffff;
+}
+
+.visually-hidden {
+display: none;
+
+} 
+ul {
+  padding-left: 0;
 }
