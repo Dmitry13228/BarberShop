@@ -111,7 +111,7 @@ input [type="radio"].visually-hiden {
 .site-navigation{
   display: flex;
   flex-wrap: wrap;
-  width: 620px;
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -290,6 +290,14 @@ input [type="radio"].visually-hiden {
 
   background-color: transparent;
   border: 2px solid #000000;
+  padding: 8px 15px;
+}
+
+.appointment .button {
+  display: block;
+  width: 100%;
+  margin: 10px 0 0;
+
 }
 
 .appointment-item input:focus {
@@ -483,6 +491,10 @@ input [type="radio"].visually-hiden {
   background-repeat: repeat;
 }
 
+.inner-page .main-footer {
+  margin-top: 45px;
+}
+
 .main-footer .container {
   display: flex;
 }
@@ -511,10 +523,28 @@ input [type="radio"].visually-hiden {
 
 .footer-social ul {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 140px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .social-button {
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  background-color: #000000;
+}
+.social-button:hover {
+  background-color: #ffffff;
+}
+.social-button:hover path {
+  fill: #000000;
 }
 
 .footer-copyright {
@@ -522,6 +552,11 @@ input [type="radio"].visually-hiden {
   margin: 0;
   margin-left: auto;
   text-align: center;
+}
+
+.footer-social b {
+  display: block;
+  margin-bottom: 15px;
 }
 
 .footer-copyright .button:hover,
@@ -537,4 +572,69 @@ display: none;
 } 
 ul {
   padding-left: 0;
+}
+
+.footer-copyright .button {
+  display: block;
+  margin-right: 0;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-200px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+
+}
+
+.modal {
+  position: fixed;
+  color: #000;
+  background-color: #f8f3f0;
+  background-image: url("./Img/pattern-light.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.modal-login {
+  top: 120px;
+  left: 50%;
+  width: 300px;
+  margin-left: -230px;
+  padding: 50px 80px;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
