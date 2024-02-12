@@ -720,3 +720,424 @@ ul {
   margin: 15px 0;
   
 }
+
+
+.login-icon-user {
+  background-repeat: no-repeat;
+  background-position: 270px center;
+  background-image: url("./Img/svg/user.svg");
+}
+
+.login-icon-password {
+  background-repeat: no-repeat;
+  background-position: 270px center;
+  background-image: url("./Img/svg/lock.svg");
+}
+
+.login-checkbox {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.login-checkbox:hover, 
+.login-checkbox:focus{
+  color: #7c4917;
+}
+
+.login-checkbox input + .checkbox-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  border: 2px solid black;
+}
+
+.login-checkbox input:checked + .checkbox-indicator::before,
+.login-checkbox input:checked + .checkbox-indicator::after {
+  content: "";
+   position: absolute;
+   top: 8px;
+   left: 1px;
+   width: 15px;
+   height: 2px; background-color: #000000;
+}
+
+.login-checkbox input:checked + .checkbox-indicator::before {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+.login-checkbox input:checked + .checkbox-indicator::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+
+.restore {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+.login-form .button {
+  width: 100%;
+  margin-right: 0;
+}
+
+
+.login-password-info {
+  display: flex;
+justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
